@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+html,body{
+    height:100%;
+    width:100%;
+    position: relative;
+}
+nav{
+    width:100%;
+    text-align: center;
+    padding: 10px 0px;
+    background-color: #3ea3dd36;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+}
+nav h2::after{
+    content: ' ❤';
+    color: red;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(https://i.pinimg.com/originals/05/95/cf/0595cfa7267dbfbef27691faf30534d8.png);
+    background-position: center;
+    background-size:cover ;
+
+}
+.clock{
+    min-height:20vh;
+    height: 30vh;
+    width:75vw;
+    background-color: #4eceae54;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+}
+
+.clock span{
+ 
+    font-size: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+#hrs::after{
+    content: 'HRS';
+    font-size:13px;
+    text-align: center;
+    line-height: 1px;
+    font-weight: 500;
+}
+#min::after{
+    content: 'MIN';
+    font-size:13px;
+    text-align: center;
+    line-height: 1px;
+    font-weight: 500;
+}
+#sec::after{
+    content: 'SEC';
+    font-size:13px;
+    text-align: center;
+    line-height: 1px;
+    font-weight: 500;
+}
+.calender{
+    height:20vh;
+    width: 75%;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:10px;
+    background-color: #dd45d575;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.calender span{
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+
+}
