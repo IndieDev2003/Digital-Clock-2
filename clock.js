@@ -21,7 +21,7 @@ setInterval(function(){
     day.innerHTML=(time.getDate()<10?'0':'')+time.getDate();
     month.innerHTML=monthName[time.getMonth()];
     year.innerHTML=time.getFullYear();
-    // console.log(time.toJSON())
+
 
     if(time.getDate()===3){
         eventToday.innerHTML="Its Anniversary My "
