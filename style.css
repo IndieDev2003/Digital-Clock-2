@@ -21,7 +21,7 @@ nav{
     -webkit-backdrop-filter: blur(15px);
 }
 nav h2::after{
-    content: ' ❤';
+    content: '❤';
     color: red;
 }
 

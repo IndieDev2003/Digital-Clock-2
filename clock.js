@@ -27,5 +27,7 @@ setInterval(function(){
         eventToday.innerHTML="Its Anniversary My "
     }else if(time.getDate()===18 && time.getMonth()===8){
         eventToday.innerHTML=events[1]
+    }else{
+        eventToday.innerHTML="I Love You My Cat ";
     }
 },1000);
